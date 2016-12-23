@@ -1,4 +1,4 @@
-div {
+.div {
     display: inline-block;
     position: relative;
     width: 100px;
@@ -10,7 +10,7 @@ div {
     color: #fff;
     background: #0c8;
 }
-ol{
+.ol{
     display: inline-block;
     padding: 0;
 }
