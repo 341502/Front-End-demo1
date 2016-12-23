@@ -1,0 +1,16 @@
+div {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    line-height: 100px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background: #0c8;
+}
+ol{
+    display: inline-block;
+    padding: 0;
+}
