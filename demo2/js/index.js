@@ -1,3 +1,3 @@
-window.onscroll = function(){
+window.onresize = function(){
 	window.location.reload();
 };
