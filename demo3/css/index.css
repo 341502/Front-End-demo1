@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: '';
+    height: 0;
+    visibility: hidden;
+}
+
+a {
+    color: rgb(119, 119, 119);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    background-color: #F8F8F8;
+    color: rgb(119, 119, 119);
+    border: 1px solid #888;
+    border-radius: 4px 4px 0 0;
+}
+
+.navbar-header {
+    border: 1px solid #888;
+}
+
+.navbar-brand {
+    height: 50px;
+    margin-left: 15px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.navbar-down {
+    float: right;
+    margin: 6px 15px 6px 0;
+    padding: 6px;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navbar-down .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    margin-top: 4px;
+    background-color: #888;
+}
+
+.navbar-collapse {
+    display: none;
+    margin-top: 1px;
+    border-bottom: 1px solid #888;
+    background-color: #F8F8F8;
+}
+
+.navbar-down-ul {
+    margin: 0;
+    padding-left: 15px;
+}
+
+.navbar-down-ul li {
+    margin: 15px 0;
+}
+
+.navbar-down-ul li a {
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-header {
+        display: inline-block;
+        border: none;
+    }
+    .navbar-down {
+        display: none;
+    }
+    .navbar-collapse {
+        display: inline-block;
+        margin-top: 0;
+        border-bottom: none;
+    }
+    .navbar-down-ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
