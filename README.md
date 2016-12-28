@@ -1,6 +1,6 @@
 # Front-End-demo1
 ### 内容:
-- 前端的demo，涉及h5，css3，js，jQuery，Bootstrap等;  
+- 前端的demo，涉及h5，css3，js，jQuery，Bootstrap，响应式等;  
 
 ### <font color="red">源码说明:</font>
 - 这个项目的源码为了部署在github的服务器上，得到静态页面，必须将源码放在`gh-pages`分支下，而现在目录是在`master`分支下，查看源码请切换分支。
