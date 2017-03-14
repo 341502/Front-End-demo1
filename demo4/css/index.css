@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    font: 12px normal microsoft yahei;
+}
+#tabs {
+    width: 300px;
+    margin: 20px;
+}
+#tabs ul {
+    padding: 0;
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+    border-left: 1px solid #aaa;
+    margin-bottom: 0;
+}
+#tabs ul li {
+    float: left;
+    width: 60px;
+    height: 28px;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-left: none;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+}
+#tabs ul li.on {
+    border-top: 1px solid #f00;
+    height: 30px;
+    border-bottom: none;
+}
+#tabs div {
+    width: 250px;
+    height: 120px;
+    padding: 5px;
+    border: 1px solid #369;
+    line-height: 25px;
+}
+.hide {
+    display: none;
+}
